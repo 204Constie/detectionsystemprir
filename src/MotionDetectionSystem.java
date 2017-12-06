@@ -115,7 +115,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 
     }
 
-     private int checkFirstPair(TreeMap<Integer, Boolean> framesArray){
+     synchronized private int checkFirstPair(TreeMap<Integer, Boolean> framesArray){
 
         int lowestFrame = framesArray.firstKey();
         int secondLowestFrame = framesArray.higherKey(lowestFrame);
