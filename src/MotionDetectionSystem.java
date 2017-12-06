@@ -63,8 +63,9 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
                         Point2D.Double result = imgConvrt.convert(frameNo, frameImages.get(frameNo), frameImages.get(frameNo + 1));
 
                         results.put(frameNo, result);
-                        sendResults();
-
+                        synchronized (results) {
+                            sendResults();
+                        }
                     }
 
                 }
@@ -83,7 +84,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 
     }
 
-     synchronized public void sendResults(){
+     public void sendResults(){
         PMO_SystemOutRedirect.println("results.get(iter): " + results.get(iter));
         while(results.get(iter) != null){
             rcinter.accept(iter, results.get(iter));
@@ -115,7 +116,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 
     }
 
-     synchronized private int checkFirstPair(TreeMap<Integer, Boolean> framesArray){
+     private int checkFirstPair(TreeMap<Integer, Boolean> framesArray){
 
         int lowestFrame = framesArray.firstKey();
         int secondLowestFrame = framesArray.higherKey(lowestFrame);
