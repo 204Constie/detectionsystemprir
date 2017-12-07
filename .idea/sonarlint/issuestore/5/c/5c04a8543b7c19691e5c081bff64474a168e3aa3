@@ -1,0 +1,9 @@
+
+1squid:S1220""Move this file to a named package.
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®£‘Ñûÿÿÿÿ
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+6squid:S1170"!Make this final field static too.(áĞâ
+Dsquid:S2387"/"IMAGES" is the name of a field in "PMO_TestA".(áĞâ
+gsquid:S00116"QRename this field "IMAGES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áĞâ
+Osquid:S1161":Add the "@Override" annotation above this method signature(£ô€Î
+Tsquid:S1161":Add the "@Override" annotation above this method signature(¼¦¹°ûÿÿÿÿ

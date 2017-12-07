@@ -1,14 +1,14 @@
 
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(±ä¯úÿÿÿÿ
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(ŸÒ³–ùÿÿÿÿ
-Fsquid:S1612",Replace this lambda with a method reference.(èÕÅËûÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Fsquid:S1612",Replace this lambda with a method reference.(šıçşÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(ÖŞ¢ÿÿÿÿÿ
+Psquid:S1147";Remove this call to "halt" or ensure it is really required.(·óú
+1squid:S1220""Move this file to a named package.
 ?squid:S00108")Either remove or fill this block of code.(ä ¹€
 hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÖŞ¢ÿÿÿÿÿ
-[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-Psquid:S1147";Remove this call to "halt" or ensure it is really required.(·óú
 Asquid:S1612",Replace this lambda with a method reference.(ôèî¥
-Tsquid:S1118":Add a private constructor to hide the implicit public one.(ÖŞ¢ÿÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-Fsquid:S1612",Replace this lambda with a method reference.(šıçşÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(±ä¯úÿÿÿÿ
+Fsquid:S1612",Replace this lambda with a method reference.(èÕÅËûÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ŸÒ³–ùÿÿÿÿ

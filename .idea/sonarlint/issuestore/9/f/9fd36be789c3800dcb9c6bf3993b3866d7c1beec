@@ -1,25 +1,23 @@
 
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(›²ÈÏ8€œÂÎ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8ÑÓñ¢‚,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èŸ‹òıÿÿÿÿ8©ï÷¢‚,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(å˜ì›8©ï÷¢‚,
-msquid:UselessImportCheck"?Remove this unused import 'java.util.concurrent.ConcurrentMap'.(˜ˆ¶úÿÿÿÿ8üŒÏ,
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8à‹”¢‚,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÌÒÿà8ÑÓñ¢‚,
-Osquid:S1068".Remove this unused "imgResults" private field.(ç¦ƒıÿÿÿÿ8ÑšıÊ,
-Vsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ïìíê8à‹”¢‚,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³¨«œ‚,
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8³¨«œ‚,
-xsquid:S1188"\Reduce this anonymous class number of lines from 30 to at most 20, or make it a named class.(ÉãÃ®8É¼ˆ¢‚,
-Vsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ïìíê8€ˆÌ¡‚,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨¢ªĞ8ÑÓñ¢‚,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Åøëíùÿÿÿÿ8¼û†Í‚,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8ìÌÕÌ‚,
 \squid:UselessImportCheck"3Remove this unused import 'org.omg.CORBA.FREE_MEM'.(Ğì¯ş8‡¯Ê,
-tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Œ©‰ëùÿÿÿÿ8ğ†ûÃ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãĞÛ8³¨«œ‚,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÂúı8äÏÏ,
-Ksquid:S2446"0"notify" may not wake up the appropriate thread.(é¾Ğ8ˆÃÛ¢‚,
-qsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ConcurrentHashMap'.(ÓŠÓøúÿÿÿÿ8üŒÏ,
-isquid:UselessImportCheck"@Remove this unused import 'sun.jvm.hotspot.jdi.BooleanTypeImpl'.(›²ÈÏ8€œÂÎ,
-Dsquid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®8é‘ß¡‚,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ìÌÕÌ‚,
 1squid:S1220""Move this file to a named package.
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8à‹”¢‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ù±õ8ìÌÕÌ‚,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦×ÉÚøÿÿÿÿ8ìÌÕÌ‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãáäë8ìÌÕÌ‚,
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(èàÅÿúÿÿÿÿ8ÇÂÊÌ‚,
+Dsquid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®8µö×Ë‚,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ìÌÕÌ‚,
+Vsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ïìíê8µö×Ë‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãĞÛ8³¨«œ‚,
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8µö×Ë‚,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8µö×Ë‚,
+msquid:UselessImportCheck"?Remove this unused import 'java.util.concurrent.ConcurrentMap'.(˜ˆ¶úÿÿÿÿ8üŒÏ,
+xsquid:S1188"\Reduce this anonymous class number of lines from 22 to at most 20, or make it a named class.(ÉãÃ®8µö×Ë‚,
+Osquid:S1068".Remove this unused "imgResults" private field.(ç¦ƒıÿÿÿÿ8ÑšıÊ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚŸç÷ûÿÿÿÿ8û°šÌ‚,
+Ksquid:S2446"0"notify" may not wake up the appropriate thread.(é¾Ğ8ÁÏÌ‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(å˜ì›8ìÌÕÌ‚,
+qsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ConcurrentHashMap'.(ÓŠÓøúÿÿÿÿ8üŒÏ,

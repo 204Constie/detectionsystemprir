@@ -15,3 +15,9 @@ B
 src/PMO_TestA.java,c/c/ccf6bc83695e4104205559b706b2f7c561c7a006
 L
 src/PMO_CountersFactory.java,1/1/1163f27a34558b7f3c45b144fe8c1bb70464b8ca
+F
+src/PMO_TestA_inc.java,5/c/5c04a8543b7c19691e5c081bff64474a168e3aa3
+B
+src/PMO_TestB.java,d/2/d29b2ffb5d4fd9a3b96bb5423bc396b9ab2a3e1d
+B
+src/PMO_TestC.java,2/7/27439fa678c0c59a6e57015ddcf8b2356d30e996

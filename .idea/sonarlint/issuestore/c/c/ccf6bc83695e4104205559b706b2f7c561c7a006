@@ -1,13 +1,13 @@
 
-:squid:S1166"%Either log or rethrow this exception.(”ı¾
-ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
-;squid:S1170"!Make this final field static too.(Ü×è’øÿÿÿÿ
-hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äÏğ¯ÿÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®«Ó«ÿÿÿÿÿ
 ;squid:S1170"!Make this final field static too.(İ•½Áşÿÿÿÿ
-ssquid:S00116"XRename this field "THREADS_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü×è’øÿÿÿÿ
-…squid:S1845"pRename method "runCompleted" to prevent any misunderstanding/clash with field "runCompleted" defined on line 11.(—‹‘¿
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äÏğ¯ÿÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®«Ó«ÿÿÿÿÿ
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
 Fsquid:S1602",Remove useless curly braces around statement(ùµ‡£ùÿÿÿÿ
+;squid:S1170"!Make this final field static too.(Ü×è’øÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+ssquid:S00116"XRename this field "THREADS_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü×è’øÿÿÿÿ
 :squid:S1166"%Either log or rethrow this exception.(”ı¾
 lsquid:S00116"QRename this field "IMAGES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ•½Áşÿÿÿÿ
+…squid:S1845"pRename method "runCompleted" to prevent any misunderstanding/clash with field "runCompleted" defined on line 11.(—‹‘¿
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
