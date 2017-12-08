@@ -12,6 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class MotionDetectionSystem implements MotionDetectionSystemInterface {
     private ConcurrentSkipListMap<Integer, Boolean> frameStatuses = new ConcurrentSkipListMap<>();
     private ConcurrentSkipListMap<Integer, int[][]> frameImages = new ConcurrentSkipListMap<>();
+//    private BlockingMap<Integer, int[][]>
     private BlockingQueue taskQueue = null;
 
 //    private ConcurrentSkipListMap<Integer, ConcurrentSkipListMap<Boolean, int[][]>> frameMap = new ConcurrentSkipListMap<>();
@@ -45,7 +46,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 //        przekazanie referencji do obiektu odpowiedzialnego za przetwarzanie obrazu
         ExecutorService executor = Executors.newFixedThreadPool(threadsNo);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 2*threadsNo; i++) {
             executor.execute(worker());
         }
         executor.shutdown();
@@ -71,7 +72,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
                             while (!pairsList.isEmpty()) {
                                 PMO_SystemOutRedirect.println("now running: " + Thread.currentThread().getName());
                                 int frameNo = 0;
-//                        synchronized (pairsList) {
+                        synchronized (pairsList) {
                                 try {
                                     frameNo = pairsList.take();
                                 } catch (InterruptedException e) {
@@ -80,7 +81,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 //                            PMO_SystemOutRedirect.println("----------frameImages.size()-1-------------: " + (frameImages.size()-1) );
 //                            PMO_SystemOutRedirect.println("+++++++++frameImages.size()-1+++++++++: " + (pairsList.size()-1) );
 //                            pairsList.remove(0);
-//                        }
+                        }
                                 if((frameNo != (frameImages.size()-1)) && frameImages.get(frameNo) != null && frameImages.get(frameNo + 1) != null) {
                                     Point2D.Double result = imgConvrt.convert(frameNo, frameImages.get(frameNo), frameImages.get(frameNo + 1));
 //                            PMO_SystemOutRedirect.println("---++++++++++++++++----: " + frameNo + " " + result );
@@ -112,7 +113,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
 
     }
 
-      synchronized public void sendResults(){
+    synchronized public void sendResults(){
 //        PMO_SystemOutRedirect.println("+++++++++++++++: " + results.get(0) + " iter: " + iter);
 //         for(int u=0; u<10; u++){
 //             PMO_SystemOutRedirect.println("threadsArray.get(u+1).getState(): " + threadsArray.get(u+1).getName() + " " +threadsArray.get(u+1).getState());
@@ -123,7 +124,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
             results.remove(iter);
             iter++;
         }
-        return;
+//        return;
     }
 
     @Override
