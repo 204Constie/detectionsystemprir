@@ -149,6 +149,7 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
         synchronized (pairsList) {
             pairsList.add(checkFirstPair(frameStatuses));
             pairsList.notify();
+            
         }
 
     }
