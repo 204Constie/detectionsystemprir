@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ccc96d-fc68-4154-be17-d75962738a94" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a7767e45cb90e4dd7c4912ff04f6f09377d2c89" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a7767e45cb90e4dd7c4912ff04f6f09377d2c89" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1163f27a34558b7f3c45b144fe8c1bb70464b8ca" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1163f27a34558b7f3c45b144fe8c1bb70464b8ca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8feefbe746a8eba988c4cb9858254d7cad468687" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8feefbe746a8eba988c4cb9858254d7cad468687" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c5e834ea7c56c40438d359db31add2cadb63a2e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c5e834ea7c56c40438d359db31add2cadb63a2e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fd36be789c3800dcb9c6bf3993b3866d7c1beec" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fd36be789c3800dcb9c6bf3993b3866d7c1beec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf6bc83695e4104205559b706b2f7c561c7a006" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf6bc83695e4104205559b706b2f7c561c7a006" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dsys/MotionDetectionSystem$1.class" afterPath="$PROJECT_DIR$/out/production/dsys/MotionDetectionSystem$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dsys/MotionDetectionSystem.class" afterPath="$PROJECT_DIR$/out/production/dsys/MotionDetectionSystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MotionDetectionSystem.java" afterPath="$PROJECT_DIR$/src/MotionDetectionSystem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +60,8 @@
       <file leaf-file-name="MotionDetectionSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MotionDetectionSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="195">
+              <caret line="148" column="34" lean-forward="true" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,7 +189,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,11 +691,13 @@
       <workItem from="1512616776901" duration="464000" />
       <workItem from="1512666163196" duration="2778000" />
       <workItem from="1512678204083" duration="5260000" />
+      <workItem from="1512734656389" duration="629000" />
+      <workItem from="1512840660399" duration="1225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44324000" />
+    <option name="totallyTimeSpent" value="46178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -707,7 +718,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28540772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1150,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MotionDetectionSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="148" column="34" lean-forward="true" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

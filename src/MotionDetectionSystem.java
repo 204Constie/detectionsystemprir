@@ -152,21 +152,24 @@ public class MotionDetectionSystem implements MotionDetectionSystemInterface {
         }
 
     }
-    private int checkFirstPair(ConcurrentSkipListMap<Integer, Boolean> framesArray){
+     private int checkFirstPair(ConcurrentSkipListMap<Integer, Boolean> framesArray){
 
           int lowestFrame = framesArray.firstKey();
+//          PMO_SystemOutRedirect.println("lowestFrame1: " + lowestFrame);
           int secondLowestFrame = framesArray.higherKey(lowestFrame);
+//          PMO_SystemOutRedirect.println("secondLowestFrame1: " + secondLowestFrame);
           while (secondLowestFrame - lowestFrame != 1 || framesArray.get(lowestFrame)) {
               lowestFrame = secondLowestFrame;
+//              PMO_SystemOutRedirect.println("lowestFramein: " + lowestFrame);
               if (framesArray.lastKey() == lowestFrame) {
                   framesArray.put(lowestFrame, Boolean.TRUE);
-                  PMO_SystemOutRedirect.println("low: " + lowestFrame);
+//                  PMO_SystemOutRedirect.println("low: " + lowestFrame);
                   return lowestFrame;
               }
               secondLowestFrame = framesArray.higherKey(lowestFrame);
           }
           framesArray.put(lowestFrame, Boolean.TRUE);
-          PMO_SystemOutRedirect.println("lo: " + lowestFrame);
+//          PMO_SystemOutRedirect.println("lo: " + lowestFrame);
           return lowestFrame;
 
 
